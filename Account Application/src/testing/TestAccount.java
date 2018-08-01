@@ -18,7 +18,7 @@ public class TestAccount {
 
 		
 	}
-
+	
 	@Test 
 	
 	public void testSetFirstName() {
@@ -27,7 +27,6 @@ public class TestAccount {
 		testSetFirstName.setFirstName("George");
 		assertEquals("George", testSetFirstName.getFirstName());
 
-		
 	}
 	
 	@Test

@@ -13,8 +13,7 @@ import app.Service;
 
 public class ServiceTest {
 
-	   HashMap<Integer, Account> accounts = new HashMap<Integer, Account>();
-		 
+	
 	
 	@Test
 	
