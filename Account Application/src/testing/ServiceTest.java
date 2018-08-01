@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import java.util.HashMap;
 
+import org.json.JSONML;
+import org.json.JSONObject;
 import org.junit.Test;
 
 import app.Account;
@@ -11,9 +13,8 @@ import app.Service;
 
 public class ServiceTest {
 
-
-	
-	HashMap<Integer, Account> accounts  = new HashMap<> ();
+	   HashMap<Integer, Account> accounts = new HashMap<Integer, Account>();
+		 
 	
 	@Test
 	
@@ -30,11 +31,24 @@ public class ServiceTest {
 	
 		
 	}
+	@Test
 	
-	
+	public void testConvertToJSON() {
 		
+		Service convertToJSONTest = new Service();
+		
+		convertToJSONTest.convertToJSON();
+				
+		assertNotNull(convertToJSONTest.convertToJSON());
+	}
+
 		
 	}
+	
+	
+		
+		
+	
 	
 	
 
