@@ -3,7 +3,6 @@ package app;
 
 public class App {
 	
-
 		public static void main(String args[]) {
 			
 			Account account = new Account("David","Barn", 123452);

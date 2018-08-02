@@ -6,19 +6,16 @@ import org.json.JSONObject;
 
 public class Service {
 
-
 	private HashMap<Integer, Account> accounts  = new HashMap<> ();
 
-	
 	public Service () {}
 	
 	public void addAccount(Account account) {
 		
 		accounts.put(account.accountNumber, account);
 		
-		}
+	}
 	
-
 	public String getAccounts(int accountNumber) {
 
 		Account a = accounts.get(accountNumber);

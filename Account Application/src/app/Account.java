@@ -6,7 +6,6 @@ public class Account {
 	protected String lastName;
 	protected int accountNumber;
 	
-
 	public Account(String firstName, String lastName, int accountNumber) {
 		
 		this.firstName = firstName;
@@ -19,35 +18,24 @@ public class Account {
 		return firstName;
 	}
 
-
-
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-
 
 	public String getLastName() {
 		return lastName;
 	}
 
-
-
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-
-
 
 	public int getAccountNumber() {
 		return accountNumber;
 	}
 
-
-
 	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
 	}
-	
-	
 	
 }

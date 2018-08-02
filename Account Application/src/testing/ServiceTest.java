@@ -13,8 +13,6 @@ import app.Service;
 
 public class ServiceTest {
 
-	
-	
 	@Test
 	
 	public void testAddAccount () {
@@ -26,9 +24,7 @@ public class ServiceTest {
 		testAddAccount.addAccount(one);
 		
 		assertEquals("Account: " + "  " + one.getFirstName() + "   " + one.getLastName()  ,testAddAccount.getAccounts(786902));
-		
-	
-		
+
 	}
 	@Test
 	
@@ -40,7 +36,6 @@ public class ServiceTest {
 				
 		assertNotNull(convertToJSONTest.convertToJSON());
 	}
-
 		
 	}
 	
