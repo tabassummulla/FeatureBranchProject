@@ -19,7 +19,6 @@ public class Account {
 		return firstName;
 	}
 
-
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
@@ -39,10 +38,8 @@ public class Account {
 		return accountNumber;
 	}
 
-
 	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
 	}
-	
-	
+
 }
