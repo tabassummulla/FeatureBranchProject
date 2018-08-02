@@ -12,7 +12,7 @@ public class Service {
 	
 	public void addAccount(Account account) {
 		
-		accounts.put(account.accountNumber, account);
+		accounts.put(account.getAccountNumber(), account);
 		
 	}
 	
