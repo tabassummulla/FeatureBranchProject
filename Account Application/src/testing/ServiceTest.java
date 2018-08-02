@@ -18,14 +18,12 @@ public class ServiceTest {
 	public void testAddAccount () {
 		
 		Account one= new Account("Harvey", "Davidson", 786902);
-		
 		Service testAddAccount = new Service();
-		
 		testAddAccount.addAccount(one);
-		
 		assertEquals("Account: " + "  " + one.getFirstName() + "   " + one.getLastName()  ,testAddAccount.getAccounts(786902));
 
 	}
+  
 	@Test
 	
 	public void testConvertToJSON() {
@@ -43,7 +41,7 @@ public class ServiceTest {
 		
 		
 	
-	
+
 	
 
 		

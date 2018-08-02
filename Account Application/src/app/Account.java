@@ -2,10 +2,11 @@ package app;
 
 public class Account {
 
-	protected String firstName;
-	protected String lastName;
-	protected int accountNumber;
-	
+	private String firstName;
+	private String lastName;
+	private int accountNumber;
+
+
 	public Account(String firstName, String lastName, int accountNumber) {
 		
 		this.firstName = firstName;
@@ -22,13 +23,16 @@ public class Account {
 		this.firstName = firstName;
 	}
 
+
 	public String getLastName() {
 		return lastName;
 	}
 
+
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
 
 	public int getAccountNumber() {
 		return accountNumber;
@@ -37,5 +41,5 @@ public class Account {
 	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
 	}
-	
+
 }

@@ -15,6 +15,7 @@ public class TestAccount {
 		Account testGetFirstName = new Account("Adam","Campbell", 321425);
 		
 		assertEquals("Adam", testGetFirstName.getFirstName());
+
 	}
 	
 	@Test 
@@ -24,6 +25,7 @@ public class TestAccount {
 		Account testSetFirstName = new Account("Adam","Campbell", 321425);
 		testSetFirstName.setFirstName("George");
 		assertEquals("George", testSetFirstName.getFirstName());
+
 	}
 	
 	@Test
@@ -35,6 +37,7 @@ public class TestAccount {
 		assertEquals("Mather", testGetLastName.getLastName());
 		
 	}
+	
 	@Test
 	
 	public void testSetLastName() {
@@ -49,11 +52,7 @@ public class TestAccount {
 	public void testGetAccountNumber() {
 		
 		Account testGetAccountNumber = new Account("Micheal","Jordan", 548362);
-		
 		assertEquals(548362, testGetAccountNumber.getAccountNumber());
-
-
-	}
 
 
 @Test
@@ -65,4 +64,5 @@ public class TestAccount {
 		assertEquals(221548, testSetAccountNumber.getAccountNumber());
 
 }
+
 }
